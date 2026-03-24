@@ -1,0 +1,68 @@
+# VisCollector - Requirements
+# Python 3.8+ required
+
+# ========================================
+# CORE DEPENDENCIES
+# ========================================
+
+# YouTube downloading
+yt-dlp>=2023.11.16
+
+# Computer vision
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+
+# Image processing & quality filtering
+Pillow>=10.0.0
+imagehash>=4.3.1
+numpy>=1.24.0
+
+# Progress bars
+tqdm>=4.66.0
+
+# AI/ML (optional - for CLIP-based deduplication)
+torch>=2.0.0
+torchvision>=0.15.0
+open-clip-torch>=2.20.0
+
+# Audio processing (optional - for future audio features)
+# openai-whisper>=20231117
+
+# ========================================
+# WEB APPLICATION
+# ========================================
+
+# Backend framework
+Flask>=3.0.0
+flask-cors>=4.0.0
+flask-socketio>=5.3.5
+
+# WebSocket support
+python-socketio>=5.10.0
+python-engineio>=4.8.0
+
+# AI chatbot integration
+google-generativeai>=0.3.2
+
+# ========================================
+# UTILITIES
+# ========================================
+
+# HTTP requests (for downloading face detection models)
+requests>=2.31.0
+
+# JSON handling (built-in, but listing for completeness)
+# json - standard library
+
+# File operations (built-in)
+# os, sys, pathlib - standard library
+
+# ========================================
+# PRODUCTION (OPTIONAL)
+# ========================================
+
+# Production WSGI server
+gunicorn>=21.2.0
+
+# Environment variables
+python-dotenv>=1.0.0
